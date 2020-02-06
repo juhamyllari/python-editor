@@ -25,7 +25,7 @@ function run(code) {
     return new Promise((resolve, reject) => {
       self.addEventListener("message", function(e) {
         if (e.data.type === "input") {
-          resolve("\n" + e.data.msg)
+          resolve(e.data.msg)
         }
       })
     })
