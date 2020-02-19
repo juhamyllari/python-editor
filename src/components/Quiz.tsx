@@ -2,8 +2,6 @@ import React, { useState } from "react"
 import PyEditor from "./PyEditor"
 import Output from "./Output"
 
-// A comment
-
 type QuizProps = {
   editorInitialValue: string
 }
